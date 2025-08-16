@@ -21,3 +21,17 @@ This project demonstrates clean modular code with entities, services, and utilit
 ---
 
 ## 📂 Project Structure
+ticket-booking-system/
+├── src/
+│ ├── main/java/ticket/booking/entities/ # Entities (User, Train, Ticket)
+│ ├── main/java/ticket/booking/services/ # Business logic services
+│ ├── main/java/ticket/booking/util/ # Utility classes
+│ └── test/java/ # Unit tests
+│
+├── localDb/
+│ ├── users.json # Stores registered users
+│ └── trains.json # Stores train details
+│
+├── build.gradle / pom.xml # Build file (Gradle/Maven)
+└── README.md # Project documentation
+
